@@ -1,0 +1,207 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+
+.header-logo {
+    text-align: center;
+}
+
+.header-logo img {
+    width: 142px;
+    padding-top: 60px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav li {
+    padding: 50px 25px;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.header-nav li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.header-image {
+    text-align: center;
+}
+
+.header-image img {
+    width: 1280px;
+}
+
+/* main */
+
+section {
+    padding: 70px 0 0;
+}
+
+.section-title h2 {
+    font-family: 'Pacifico', cursive;
+    width: 60%;
+    margin: 0 auto 40px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    background: url(images/borderBlack.png) repeat-x 0 50%;
+    background-size: 1px 1px;
+}
+
+.section-title span {
+    padding: 0 80px;
+    background-color: white;
+}
+
+.section-text {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: 80px;
+
+}
+
+.image-wrapper {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.image-wrapper img {
+    width: 33.3333%;
+}
+
+.image {
+    vertical-align: bottom;
+    
+}
+
+.section-image {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-image img {
+    width: 60%;
+}
+
+.sub-image img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.brand-contents {
+    width: 60%;
+    /* margin-bottom: 80px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0  auto 80px auto;
+}
+
+.brand-content {
+    width: 270px;
+}
+
+.brand-image {
+    background-color: #f6f6f6;
+    display: block;
+    padding: 80px 50px;
+    margin-bottom: 40px;    
+}
+
+.brand-image img {
+    width: 170px;
+    height: 106px;
+    margin-right: 8px;
+    
+    
+}
+
+.content-text {
+    font-size: 13px;
+}
+
+
+/* the brand */
+
+
+
+.the-brand-image {
+    background-image: url(images/bgSec04.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 220px 20px;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* company */
+
+.company-info {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.conpany-info p {
+    line-height: 30px;
+    font-size: 13px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sns {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sns img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.company-section {
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
+
+footer p {
+    line-height: 200px;
+    text-align: center;
+}
